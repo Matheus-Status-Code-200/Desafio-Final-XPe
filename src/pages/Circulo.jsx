@@ -9,8 +9,8 @@ export default function Circulo() {
     const parsedRadius = parseFloat(radius);
 
     if (!isNaN(parsedRadius)) {
-      const calculatedArea = Math.PI * parsedRadius * parsedRadius;
-      const calculatedPerimeter = 2 * Math.PI * parsedRadius;
+      const calculatedArea = Math.PI.toFixed(2) * (parsedRadius * parsedRadius);
+      const calculatedPerimeter = 2 * Math.PI.toFixed(2) * parsedRadius;
 
       setArea(calculatedArea.toFixed(2));
       setPerimeter(calculatedPerimeter.toFixed(2));
