@@ -32,13 +32,13 @@ export default function Quadrado() {
         <h1 className="text-2xl mb-4">Área e Perímetro do Quadrado</h1>
         <div className="flex  ml-24 justify-center items-center h-40 w-40 bg-cyan-500">
           <div className="flex items-center mb-4">
-            <label htmlFor="side" className="">
+            <label htmlFor="side" className="gap-2">
               Lado:
             </label>
             <input
               type="number"
               id="side"
-              className="border w-12 mr-2"
+              className="border ml-2 w-12 mr-2"
               value={side}
               onChange={(e) => setSide(e.target.value)}
             />

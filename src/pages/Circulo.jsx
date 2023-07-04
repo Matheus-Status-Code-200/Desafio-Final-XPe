@@ -27,10 +27,10 @@ export default function Circulo() {
   };
 
   return (
-    <div className="flex justify-center items-center">
-      <div className="bg-white p-4 shadow-lg rounded-lg">
+    <div className="flex justify-center items-center w-400">
+      <div className="bg-white p-8 shadow-lg rounded-lg ">
         <h1 className="text-2xl mb-4">Área e Perímetro do Círculo</h1>
-        <div className="flex justify-center items-center h-40 w-40 bg-cyan-500 rounded-full">
+        <div className="flex ml-16 justify-center items-center h-48 w-48 bg-cyan-500 rounded-full">
           <div className="flex items-center mb-4">
             <label htmlFor="radius" className="mr-2">
               Raio:
