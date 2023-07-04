@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(216, 216, 216);
+    background-repeat: no-repeat;
+}
+
+#triangulo-para-cima {
+    width: 0;
+    height: 0;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid #29B8DF;
+}
